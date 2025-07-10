@@ -9,7 +9,7 @@ public:
         }
         else{
             int st=1;
-            int end=N-1;
+            int end=N-2;
             int ans;
 
             while(st<=end){
