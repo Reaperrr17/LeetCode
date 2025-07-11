@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0645-set-mismatch](https://github.com/Reaperrr17/LeetCode/tree/master/0645-set-mismatch) |
 | [0792-binary-search](https://github.com/Reaperrr17/LeetCode/tree/master/0792-binary-search) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Reaperrr17/LeetCode/tree/master/0882-peak-index-in-a-mountain-array) |
+| [1646-kth-missing-positive-number](https://github.com/Reaperrr17/LeetCode/tree/master/1646-kth-missing-positive-number) |
 ## Binary Search
 |  |
 | ------- |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0287-find-the-duplicate-number](https://github.com/Reaperrr17/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0792-binary-search](https://github.com/Reaperrr17/LeetCode/tree/master/0792-binary-search) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Reaperrr17/LeetCode/tree/master/0882-peak-index-in-a-mountain-array) |
+| [1646-kth-missing-positive-number](https://github.com/Reaperrr17/LeetCode/tree/master/1646-kth-missing-positive-number) |
 ## Math
 |  |
 | ------- |
