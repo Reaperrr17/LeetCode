@@ -7,9 +7,8 @@ public:
 
         for(int i=0;i<N;i++){
             while(nums[i]!=i){
-                if(nums[i]==N){
+                if(nums[i]==N)
                     break;
-                }
                 swap(nums[i],nums[nums[i]]);
             }
         }
@@ -20,7 +19,7 @@ public:
                 break;
             }
         }
-        
+
         return ans;
         
     }
