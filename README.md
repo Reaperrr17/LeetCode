@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0007-reverse-integer](https://github.com/Reaperrr17/LeetCode/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/Reaperrr17/LeetCode/tree/master/0009-palindrome-number) |
 | [0069-sqrtx](https://github.com/Reaperrr17/LeetCode/tree/master/0069-sqrtx) |
+| [0070-climbing-stairs](https://github.com/Reaperrr17/LeetCode/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/Reaperrr17/LeetCode/tree/master/0268-missing-number) |
 | [1013-fibonacci-number](https://github.com/Reaperrr17/LeetCode/tree/master/1013-fibonacci-number) |
 ## Hash Table
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Reaperrr17/LeetCode/tree/master/0070-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/Reaperrr17/LeetCode/tree/master/1013-fibonacci-number) |
 ## Recursion
 |  |
@@ -72,5 +74,6 @@ A collection of LeetCode questions to ace the coding interview!
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Reaperrr17/LeetCode/tree/master/0070-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/Reaperrr17/LeetCode/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->
