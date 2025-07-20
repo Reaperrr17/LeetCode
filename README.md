@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0882-peak-index-in-a-mountain-array](https://github.com/Reaperrr17/LeetCode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0948-sort-an-array](https://github.com/Reaperrr17/LeetCode/tree/master/0948-sort-an-array) |
 | [1646-kth-missing-positive-number](https://github.com/Reaperrr17/LeetCode/tree/master/1646-kth-missing-positive-number) |
+| [1878-check-if-array-is-sorted-and-rotated](https://github.com/Reaperrr17/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 ## Binary Search
 |  |
 | ------- |
