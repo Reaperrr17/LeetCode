@@ -2,7 +2,7 @@ class Solution {
 public:
     bool check(vector<int>& nums) {
 
-        int smallestelementindex;
+        int smallestelementindex=0;
         int N = nums.size();
 
         if(N==1){
