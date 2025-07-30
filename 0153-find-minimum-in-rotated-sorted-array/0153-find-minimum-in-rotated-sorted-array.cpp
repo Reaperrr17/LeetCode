@@ -8,19 +8,19 @@ public:
             return nums[0];
         }
         else{
-
             int st=0;
-            int end=N-1;
+            int end = N-1;
             int ans;
 
             while(st<=end){
-                int mid=st+(end-st)/2;
 
-                if(nums[mid]<nums[(mid+1)%N] && nums[mid]<nums[(mid-1+N)%N]){
-                    ans=nums[mid];
+                int mid = end - (end-st)/2;
+
+                if(nums[mid]<nums[(mid-1+N)%N] && nums[mid]<=nums[(mid+1)%N]){
+                    ans = nums[mid];
                     break;
                 }
-                else if(nums[mid]<=nums[end]){
+                else if((nums[mid]>=nums[st] && nums[st]<=nums[end]) || (nums[mid]<=nums[st] && nums[mid]<=nums[end] )){
                     end = mid-1;
                 }
                 else{
@@ -29,6 +29,5 @@ public:
             }
             return ans;
         }
-        
     }
 };
