@@ -19,15 +19,10 @@ public:
                 if(nums[mid]==target){
                     return mid;
                 }
-                else if(nums[mid]>=nums[st] && target>nums[mid]){
+                else if(nums[mid]>=nums[st] && (target>nums[mid] || target<nums[st] || target>nums[mid] && target<=nums[st])){
                     st = mid+1;
                 }
-                else if(nums[mid]>=nums[st] && target<nums[st]){
-                    st = mid+1;
-                }
-                else if(nums[mid]>=nums[st] && target>nums[mid] && target<=nums[st]){
-                    st = mid+1;
-                }
+    
                 else if(nums[mid]<=nums[st] && target>nums[mid]  && target<nums[st]){
                     st = mid+1;
                 }
