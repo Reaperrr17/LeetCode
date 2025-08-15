@@ -1,33 +1,37 @@
 class Solution {
 public:
-    int findKthPositive(vector<int>& arr, int k) {
-        
-        int N = arr.size();
-        int ans = 0;
-        int numberofmissingnumbers=0;
+    int findKthPositive(vector<int>& nums, int k) {
 
-        for(int i=0;i<N;i++){
+        int N = nums.size();
 
-            if(arr[i]!=i+1){ 
+        if(nums[0]>k){
+            return k;
+        }
+        else{
 
-                if((arr[i]-(i+1))>=k){
+            int st = 0;
+            int end = N-1;
+            int ans = -1;
 
-                    if(i!=0){
-                        ans = arr[i-1]+(k-numberofmissingnumbers);
-                        break;
-                    }
-                    else if(i==0){
-                        ans = k;
-                        break;
-                    }
+            while(st<=end){
+
+                int mid = st + (end-st)/2;
+
+                if((nums[mid]-(mid+1))>=k){
+                    ans = mid;
+                    end = mid-1;
                 }
-
-                numberofmissingnumbers = arr[i]-(i+1);
+                else{
+                    st = mid+1;
+                }
+            }
+            if(ans!=-1){
+                return k+ans;
+            }
+            else{
+                return k+N;
             }
         }
-        if(ans==0){
-            ans = arr[N-1]+k -numberofmissingnumbers;
-        }
-        return ans;
+        
     }
 };
