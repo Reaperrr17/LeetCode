@@ -1,11 +1,11 @@
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
-
+        
         int N = nums.size();
-        int ans=N;
         int st = 0;
         int end = N-1;
+        int ans = N;
 
         while(st<=end){
 
@@ -14,15 +14,13 @@ public:
             if(nums[mid]==target){
                 ans = mid;
                 break;
-            }
-            else if(nums[mid]>target){
+            }else if(nums[mid]>target){
                 ans = mid;
                 end = mid-1;
-            }
-            else{
+            }else{
                 st = mid+1;
             }
-        } 
-        return ans;   
+        }
+        return ans;
     }
 };
