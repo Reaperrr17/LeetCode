@@ -1,47 +1,40 @@
 class Solution {
-public:
-    bool ispossible(int n,vector <int> &arr,int k){
-
-        long long summ=0;
-        int count=1;
-        for(int i=0;i<arr.size();i++){
-            if(arr[i]>n){
+  public:
+    bool ispossible(int maxpages,vector <int> &books,int k){
+        long long sum = 0;
+        int stu = 1;
+        for(int i=0;i<books.size();i++){
+            if(books[i]>maxpages){
                 return false;
             }
-            summ += arr[i];
-            if(summ>n){
-                count++;
-                summ=0;
-                summ+=arr[i];
+            sum += books[i];
+            if(sum>maxpages){
+                stu++;
+                sum = 0;
+                sum = books[i];
+            }
+            if(stu>k){
+                return false;
             }
         }
-        if(count>k){
-            return false;
-        }
-        else{
-            return true;
-        }
+        return true;
     }
-    int shipWithinDays(vector<int>& weights, int days) {
-        
-        long long sumofweights = accumulate(weights.begin(),weights.end(),0);
-
-        int st = *(max_element(weights.begin(),weights.end()));
-        int end = sumofweights;
-        int ans;
-
-        while(st<=end){
-
-            int mid = st + (end-st)/2;
-
-            if(ispossible(mid,weights,days)){
-                ans = mid;
-                end = mid-1;
+    int shipWithinDays(vector<int>& books, int k) {
+        // code here
+            int st = *(max_element(books.begin(),books.end()));
+            long long end = accumulate(books.begin(),books.end(),0);
+            int ans;
+            
+            while(st<=end){
+                long long mid = st + (end-st)/2;
+                
+                if(ispossible(mid,books,k)){
+                    ans = mid;
+                    end = mid-1;
+                }else{
+                    st = mid+1;
+                }
             }
-            else{
-                st = mid+1;
-            }
-        }
-        return ans;
+            return ans;
     }
 };
