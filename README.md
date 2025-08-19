@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Reaperrr17/LeetCode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Reaperrr17/LeetCode/tree/master/0035-search-insert-position) |
 | [0041-first-missing-positive](https://github.com/Reaperrr17/LeetCode/tree/master/0041-first-missing-positive) |
+| [0053-maximum-subarray](https://github.com/Reaperrr17/LeetCode/tree/master/0053-maximum-subarray) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Reaperrr17/LeetCode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0136-single-number](https://github.com/Reaperrr17/LeetCode/tree/master/0136-single-number) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Reaperrr17/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/Reaperrr17/LeetCode/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/Reaperrr17/LeetCode/tree/master/0070-climbing-stairs) |
 | [0410-split-array-largest-sum](https://github.com/Reaperrr17/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [1013-fibonacci-number](https://github.com/Reaperrr17/LeetCode/tree/master/1013-fibonacci-number) |
@@ -112,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/Reaperrr17/LeetCode/tree/master/0053-maximum-subarray) |
 | [0948-sort-an-array](https://github.com/Reaperrr17/LeetCode/tree/master/0948-sort-an-array) |
 ## Heap (Priority Queue)
 |  |
