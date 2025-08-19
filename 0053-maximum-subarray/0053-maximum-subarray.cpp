@@ -1,0 +1,19 @@
+class Solution {
+public:
+    int maxSubArray(vector<int>& nums) {
+        long long maxsum = INT_MIN;
+        long long currsum = 0;
+        int N = nums.size();
+
+        for(int i=0;i<N;i++){
+            currsum += nums[i];
+            if(currsum>maxsum){
+                maxsum = currsum;
+            }
+            if(currsum<0){
+                currsum = 0;
+            }
+        }
+        return maxsum;
+    }
+};
