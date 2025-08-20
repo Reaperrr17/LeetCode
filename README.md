@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Reaperrr17/LeetCode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Reaperrr17/LeetCode/tree/master/0035-search-insert-position) |
 | [0041-first-missing-positive](https://github.com/Reaperrr17/LeetCode/tree/master/0041-first-missing-positive) |
+| [0042-trapping-rain-water](https://github.com/Reaperrr17/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Reaperrr17/LeetCode/tree/master/0053-maximum-subarray) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Reaperrr17/LeetCode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0136-single-number](https://github.com/Reaperrr17/LeetCode/tree/master/0136-single-number) |
@@ -92,12 +93,14 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Reaperrr17/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0042-trapping-rain-water](https://github.com/Reaperrr17/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Reaperrr17/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/Reaperrr17/LeetCode/tree/master/0189-rotate-array) |
 | [0287-find-the-duplicate-number](https://github.com/Reaperrr17/LeetCode/tree/master/0287-find-the-duplicate-number) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Reaperrr17/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Reaperrr17/LeetCode/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/Reaperrr17/LeetCode/tree/master/0070-climbing-stairs) |
 | [0410-split-array-largest-sum](https://github.com/Reaperrr17/LeetCode/tree/master/0410-split-array-largest-sum) |
@@ -145,4 +148,12 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/Reaperrr17/LeetCode/tree/master/0410-split-array-largest-sum) |
+## Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/Reaperrr17/LeetCode/tree/master/0042-trapping-rain-water) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/Reaperrr17/LeetCode/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
