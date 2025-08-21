@@ -8,12 +8,10 @@ public:
         int ans = N;
 
         while(st<=end){
-
             int mid = st + (end-st)/2;
 
             if(nums[mid]==target){
-                ans = mid;
-                break;
+                return mid;
             }else if(nums[mid]>target){
                 ans = mid;
                 end = mid-1;
