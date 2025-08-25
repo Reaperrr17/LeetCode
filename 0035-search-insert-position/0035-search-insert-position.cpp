@@ -8,6 +8,7 @@ public:
         int ans = N;
 
         while(st<=end){
+
             int mid = st + (end-st)/2;
 
             if(nums[mid]==target){
