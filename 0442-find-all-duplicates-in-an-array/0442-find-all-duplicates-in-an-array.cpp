@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> findDuplicates(vector<int>& nums) {
-
+        
         int N = nums.size();
         vector <int> ans;
 
@@ -9,8 +9,9 @@ public:
             while(nums[i]!=i+1){
                 if(nums[i]==nums[nums[i]-1]){
                     break;
+                }else{
+                    swap(nums[i],nums[nums[i]-1]);
                 }
-                swap(nums[i],nums[nums[i]-1]);
             }
         }
 
@@ -21,8 +22,5 @@ public:
         }
 
         return ans;
-
-        
-        
     }
 };
