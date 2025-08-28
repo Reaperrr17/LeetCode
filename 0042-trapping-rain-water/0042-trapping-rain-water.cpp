@@ -8,9 +8,6 @@ public:
         vector <int> suffix(N);
         vector <int> prefix(N);
 
-        prefix[0] = height[0];
-        suffix[N-1] = height[N-1];
-
         int maxheight1 = height[0];
         int maxheight2 = height[N-1];
 
