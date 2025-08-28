@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Reaperrr17/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Reaperrr17/LeetCode/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Reaperrr17/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0169-majority-element](https://github.com/Reaperrr17/LeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Reaperrr17/LeetCode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/Reaperrr17/LeetCode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Reaperrr17/LeetCode/tree/master/0287-find-the-duplicate-number) |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0001-two-sum](https://github.com/Reaperrr17/LeetCode/tree/master/0001-two-sum) |
 | [0041-first-missing-positive](https://github.com/Reaperrr17/LeetCode/tree/master/0041-first-missing-positive) |
+| [0169-majority-element](https://github.com/Reaperrr17/LeetCode/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/Reaperrr17/LeetCode/tree/master/0268-missing-number) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Reaperrr17/LeetCode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Reaperrr17/LeetCode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
@@ -87,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Sorting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/Reaperrr17/LeetCode/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/Reaperrr17/LeetCode/tree/master/0268-missing-number) |
 | [0645-set-mismatch](https://github.com/Reaperrr17/LeetCode/tree/master/0645-set-mismatch) |
 | [0948-sort-an-array](https://github.com/Reaperrr17/LeetCode/tree/master/0948-sort-an-array) |
@@ -119,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Reaperrr17/LeetCode/tree/master/0053-maximum-subarray) |
+| [0169-majority-element](https://github.com/Reaperrr17/LeetCode/tree/master/0169-majority-element) |
 | [0948-sort-an-array](https://github.com/Reaperrr17/LeetCode/tree/master/0948-sort-an-array) |
 ## Heap (Priority Queue)
 |  |
@@ -139,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Counting Sort
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/Reaperrr17/LeetCode/tree/master/0169-majority-element) |
 | [0948-sort-an-array](https://github.com/Reaperrr17/LeetCode/tree/master/0948-sort-an-array) |
 ## Prefix Sum
 |  |
