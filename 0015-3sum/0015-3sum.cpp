@@ -9,18 +9,23 @@ public:
 
         sort(nums.begin(),nums.end());
 
-        set <vector<int>> ans;
+        vector <vector<int>> ans;
 
         for(start=0;start<N-2;start++){
 
             end = N-1;
             middle = start+1;
+            if(start>0 && nums[start]==nums[start-1])
+                continue;
 
             while(middle<end){
 
                 if(nums[start]+nums[middle]+nums[end]==0){
-                    ans.insert({nums[start],nums[middle],nums[end]});
+                    ans.push_back({nums[start],nums[middle],nums[end]});
                     middle++;
+                    while(middle<end && nums[middle]==nums[middle-1]){
+                        middle++;
+                    }
                 }else if(nums[start]+nums[middle]+nums[end]>0){
                     end--;
                 }else{
@@ -28,6 +33,6 @@ public:
                 }
             }
         }
-        return vector<vector<int>>(ans.begin(), ans.end());
+        return ans;
     }
 };
