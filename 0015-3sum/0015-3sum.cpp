@@ -23,8 +23,12 @@ public:
                 if(nums[start]+nums[middle]+nums[end]==0){
                     ans.push_back({nums[start],nums[middle],nums[end]});
                     middle++;
+                    end--;
                     while(middle<end && nums[middle]==nums[middle-1]){
                         middle++;
+                    }
+                    while(middle<end && nums[end]==nums[end+1]){
+                        end--;
                     }
                 }else if(nums[start]+nums[middle]+nums[end]>0){
                     end--;
