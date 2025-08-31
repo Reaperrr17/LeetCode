@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0645-set-mismatch](https://github.com/Reaperrr17/LeetCode/tree/master/0645-set-mismatch) |
 | [0792-binary-search](https://github.com/Reaperrr17/LeetCode/tree/master/0792-binary-search) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Reaperrr17/LeetCode/tree/master/0882-peak-index-in-a-mountain-array) |
+| [0898-transpose-matrix](https://github.com/Reaperrr17/LeetCode/tree/master/0898-transpose-matrix) |
 | [0907-koko-eating-bananas](https://github.com/Reaperrr17/LeetCode/tree/master/0907-koko-eating-bananas) |
 | [0948-sort-an-array](https://github.com/Reaperrr17/LeetCode/tree/master/0948-sort-an-array) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Reaperrr17/LeetCode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -165,4 +166,12 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Reaperrr17/LeetCode/tree/master/0042-trapping-rain-water) |
+## Matrix
+|  |
+| ------- |
+| [0898-transpose-matrix](https://github.com/Reaperrr17/LeetCode/tree/master/0898-transpose-matrix) |
+## Simulation
+|  |
+| ------- |
+| [0898-transpose-matrix](https://github.com/Reaperrr17/LeetCode/tree/master/0898-transpose-matrix) |
 <!---LeetCode Topics End-->
