@@ -1,14 +1,15 @@
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
-
+        
         int N = nums.size();
+        int firstpos = -1;
+        int lastpos = -1;
         int st = 0;
         int end = N-1;
-        int firstpos = -1;
-        int endpos = -1;
 
         while(st<=end){
+
             int mid = st + (end-st)/2;
 
             if(nums[mid]==target){
@@ -20,16 +21,19 @@ public:
                 st = mid+1;
             }
         }
-        if(firstpos==-1){
+        
+        if(firstpos == -1){
             return {-1,-1};
         }else{
             st = 0;
             end = N-1;
+
             while(st<=end){
 
                 int mid = st + (end-st)/2;
+
                 if(nums[mid]==target){
-                    endpos = mid;
+                    lastpos = mid;
                     st = mid+1;
                 }else if(nums[mid]>target){
                     end = mid-1;
@@ -37,8 +41,8 @@ public:
                     st = mid+1;
                 }
             }
-
-            return {firstpos,endpos};
+            return {firstpos,lastpos};
         }
+
     }
 };
