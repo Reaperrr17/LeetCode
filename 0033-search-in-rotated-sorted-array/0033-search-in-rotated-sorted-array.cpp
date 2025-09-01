@@ -19,7 +19,7 @@ public:
                     st = mid+1;
                 }
             }else{
-                if(target<=nums[end] && target>=nums[mid]){
+                if(target>=nums[mid] && target<=nums[end]){
                     st = mid+1;
                 }else{
                     end = mid-1;
