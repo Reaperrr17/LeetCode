@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool search(vector<int>& nums, int target) {
-        
+
         int N = nums.size();
         int st = 0;
         int end = N-1;
@@ -12,7 +12,7 @@ public:
 
             if(nums[mid]==target){
                 return true;
-            }else if(nums[mid]==nums[st] && nums[mid]==nums[end]){
+            }else if(nums[mid]==nums[st] && nums[st]==nums[end]){
                 st++;
                 end--;
             }else if(nums[mid]>=nums[st]){
@@ -22,7 +22,7 @@ public:
                     st = mid+1;
                 }
             }else{
-                if(target<=nums[end] && target>=nums[mid]){
+                if(target>=nums[mid] && target<=nums[end]){
                     st = mid+1;
                 }else{
                     end = mid-1;
